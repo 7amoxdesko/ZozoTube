@@ -103,6 +103,75 @@
 }
 
 
+/* From Uiverse.io by Randdose */ 
+.Return {
+    all: unset;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: rgb(7, 7, 7) solid 0.15em;
+    border-radius: 10px;
+    color: rgb(8, 8, 8);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+    transition: border 300ms, color 300ms;
+    user-select: none;
+    margin-right: 40px;
+    font-family: Roboto Mono , Arial;
+  }
+  
+  .Return p {
+    z-index: 1;
+  }
+  
+  .Return:hover {
+    color: #fdfdfd;
+  }
+  
+  .Return:active {
+    border-color: rgb(232, 236, 236);
+  }
+  
+  .Return::after, .Return::before {
+    content: "";
+    position: absolute;
+    width: 9em;
+    aspect-ratio: 1;
+    background: rgb(233, 199, 29);
+    opacity: 50%;
+    border-radius: 50%;
+    transition: transform 500ms, background 300ms;
+  }
+  
+  .Return::before {
+    left: 0;
+    transform: translateX(-8em);
+  }
+  
+  .Return::after {
+    right: 0;
+    transform: translateX(8em);
+  }
+  
+  .Return:hover:before {
+    transform: translateX(-1em);
+  }
+  
+  .Return:hover:after {
+    transform: translateX(1em);
+  }
+  
+  .Return:active:before,
+  .Return:active:after {
+    background: rgb(18, 19, 19);
+  }
+
 .user {
     height: 40px;
     border-radius: 25px;
