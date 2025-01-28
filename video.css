@@ -99,3 +99,14 @@
     cursor: pointer;
     padding: 10px 50px;
 }
+
+.takerm {
+    background-color: rgb(255, 224, 55);
+    color: black;
+    border-radius: 25px;
+    font-family: Roboto Mono , Arial;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px 50px;
+}
