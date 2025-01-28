@@ -1,13 +1,13 @@
 
 
 p {
-    font-family: Roboto, Arial;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    font-family: Roboto, Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 body {
-    margin: 0px;
+    margin: 0;
     padding-top: 80px;
     padding-left: 50px;
     padding-right: 50px;
@@ -52,7 +52,7 @@ body {
     40px 40px,
     60px 60px,
     100% 100%;
-  animation: shift 15s linear infinite;
+  animation: shift 5s linear infinite;
 }
 
 @keyframes shift {
@@ -74,7 +74,7 @@ body {
   }
 }
 
-/* From Uiverse.io by abrahamcalsin */ 
+/* Styles for a client card component, from Uiverse.io by abrahamcalsin */ 
 .card-client {
     background: #e5db20;
     width: 13rem;
